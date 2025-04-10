@@ -33,7 +33,7 @@ int main() {
         printf("Digite o Código da Carta 1,composta de uma letra maiúscula, de A até H, e dois algarismos, ex. A01: \n");
         scanf("%s", CodigoDaCarta1); //armazena o valor do Código da carta na variável CodigoDaCarta1, especificando o formato
 
-        printf("Digite o nome da Cidade da Carta 1: \n");
+        printf("Digite o nome da Cidade da Carta 1 SEM ESPAÇOS, por ex. Novo_Hamburgo: \n");
         scanf("%s", NomeDaCidade1); //armazena o valor Cidade na variável NomeDaCidade1
 
         printf("Digite a população da Cidade da Carta 1: \n");
@@ -56,7 +56,7 @@ int main() {
         printf("Digite o Código da Carta 2,composta de uma letra maiúscula, de A até H, e dois algarismos, ex. B02: \n");
         scanf("%s", CodigoDaCarta2); //armazena o valor do Código da carta na variável CodigoDaCarta2, especificando o formato
 
-        printf("Digite o nome da Cidade da Carta 2: \n");
+        printf("Digite o nome da Cidade da Carta 2 SEM ESPAÇOS, por ex. Novo_Hamburgo: \n");
         scanf("%s", NomeDaCidade2); //armazena o valor Cidade na variável NomeDaCidade2
 
         printf("Digite a população da Cidade da Carta 2: \n");
@@ -75,8 +75,8 @@ int main() {
 
     // Imprime na tela todos os dados agrupados por carta
         //CARTA 1
-            printf("Carta 1:\n"); imprime na tela o código da carta
-            printf("Estado: %s\n", Estado1); imp
+            printf("Carta 1:\n"); 
+            printf("Estado: %s\n", Estado1); 
             printf("Código: %s\n", CodigoDaCarta1);
             printf("Nome da Cidade: %s\n", NomeDaCidade1);
             printf("População: %d habitantes\n", Populacao1);
